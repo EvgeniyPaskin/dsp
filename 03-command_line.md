@@ -20,22 +20,38 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+```
+show current working directory path = pwd
+creating a directory = mkdir [dir]
+deleting a directory = rmdir [dir]
+creating a file using touch command = touch [file]
+deleting a file = rm [file]
+renaming a file = mv [file] [new filename]
+listing hidden files = ls -a
+copying a file from one directory to another = cp [file] [dir]
++
+change directory = cd [folder]
+open a file = open [file]
+```
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+
+```
+`ls`      = Short listing
+`ls -a`   = Listing incl. hidden files
+`ls -l`   = Long listing
+`ls -lh`  = Long listing with Human readable file sizes
+`ls -lah` = Long listing with hidden files and Human readable file sizes
+`ls -t`   = Sort by time
+`ls -Glp` = Shows file type and file permissions
+
+```
 
 ---
 
@@ -43,15 +59,25 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+```
+ls -R =	Displays subdirectories as well.
+ls -m	= Displays the names as a comma-separated list.
+ls -1	= Displays each entry on a line.
+ls -d	= Displays only directories.
+ls - S = sort by size
+```
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ It converts input from standard input into arguments to a command
 
- 
+Example from the manual:
+
+Read a list of filenames from filelist.txt (one per line) and copy them to new_folder:
+```
+$ xargs -a filelist.txt cp -t new_folder
+``` 
 
