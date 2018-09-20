@@ -26,11 +26,20 @@ $ jupyter notebook
 ```
 >my example
 ```console
-reshama$ jupyter notebook
-[I 11:41:22.769 NotebookApp] Serving notebooks from local directory: /Users/reshamashaikh/_ds/metis
-[I 11:41:22.769 NotebookApp] 0 active kernels 
-[I 11:41:22.769 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
-[I 11:41:22.769 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+Paskins-MacBook-Pro:~ paskin$ jupyter notebook
+[I 18:32:13.166 NotebookApp] JupyterLab extension loaded from /Users/paskin/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 18:32:13.166 NotebookApp] JupyterLab application directory is /Users/paskin/anaconda3/share/jupyter/lab
+[I 18:32:13.172 NotebookApp] Serving notebooks from local directory: /Users/paskin
+[I 18:32:13.172 NotebookApp] The Jupyter Notebook is running at:
+[I 18:32:13.172 NotebookApp] http://localhost:8888/?token=16855d549d1387fde686bd9269ea75230a0d425a1c5a799d
+[I 18:32:13.172 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:32:13.173 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=16855d549d1387fde686bd9269ea75230a0d425a1c5a799d
+[I 18:32:13.871 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+
 ```
 
 ### Shut Down the Juypter Notebook App
@@ -40,14 +49,18 @@ At terminal prompt:
  
 >my example 
 ```console
-^C[I 11:43:35.486 NotebookApp] interrupted
-Serving notebooks from local directory: /Users/reshamashaikh/_ds/metis
-0 active kernels 
-The Jupyter Notebook is running at: http://localhost:8888/
-Shutdown this notebook server (y/[n])? y
-[C 11:43:37.782 NotebookApp] Shutdown confirmed
-[I 11:43:37.783 NotebookApp] Shutting down kernels
-reshama$ 
+^C[I 18:32:53.922 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/paskin
+0 active kernels
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=16855d549d1387fde686bd9269ea75230a0d425a1c5a799d
+Shutdown this notebook server (y/[n])? No answer for 5s: resuming operation...
+y
+^C[I 18:33:09.698 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/paskin
+0 active kernels
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=16855d549d1387fde686bd9269ea75230a0d425a1c5a799d
 ```
 
 ---
